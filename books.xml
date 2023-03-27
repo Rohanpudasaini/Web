@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<bookstore>
+  <book category="Biography">
+    <title lang="en">Can't Hurt Me</title>
+    <author>David Goggins</author>
+    <year>2005</year>
+    <price>30.00</price>
+  </book>
+  <book category="Lifestyle">
+    <title lang="en">12 Rules of Life</title>
+    <author>Joradn B Peterson</author>
+    <year>2005</year>
+    <price>50.00</price>
+  </book>
+  <book category="WEB">
+    <title lang="en">Learning XML</title>
+    <author>Erik T. Ray</author>
+    <year>2003</year>
+    <price>39.95</price>
+  </book>
+</bookstore>
+

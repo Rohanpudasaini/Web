@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I Am Changable</title>
+    <style>
+      body {
+        background-color: yellow;
+        font-size: 50px;
+      }
+      @media screen and (max-width: 500px) {
+        body {
+          background-color: blue;
+          font-size: 10px;
+        }
+      }
+      @media screen and (min-width: 600px) {
+        body {
+          background-color: green;
+          font-size: 30px;
+        }
+      }
+
+      @media screen and (min-width: 900px) {
+        body {
+          background-color: red;
+          font-size: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div" style="padding: 25px;">I Changes With Change In Width. It Isnt Magic, It's Just CSS</div>
+  </body>
+</html>

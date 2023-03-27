@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>What's In The Air?</title>
+  </head>
+
+  <body>
+    <div id="image-container">
+      <img
+        src="/superman.jpg"
+        alt="Superman"
+        onmouseover="changeDescription('Is It A Plane?')"
+        onmouseout="changeDescription('No Its Superman')"
+        width="320px"
+        height="240px"
+      />
+      <p id="description">Is It A Bird?</p>
+    </div>
+
+    <script>
+      function changeDescription(newDescription) {
+        var descriptionElement = document.getElementById("description");
+        descriptionElement.innerHTML = newDescription;
+      }
+    </script>
+  </body>
+</html>
